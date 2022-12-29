@@ -1,0 +1,78 @@
+:root{
+  --colorbrown: blue;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(9, 0, 0);
+}
+header{
+  background-color: black;
+  color: white;
+}
+.website-header{
+  padding: 20px;
+  height: 65px;
+  display: flex;
+  flex: wrap;
+
+}
+.website-header img{
+  width: 50px;
+  height: 50px;
+  margin: 0 200px;
+}
+.website-header h1{
+  margin: auto 0;
+
+}
+nev{
+  background-color: black;
+  height: 50px;
+  margin-bottom: 20px;
+}
+nav ul{
+  margin: 20px 0 0 0;
+}
+.navbar-nav li a{
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 800;
+}
+.navbar-nav li a:hover{
+  color: var(--colorbrown);
+  
+}
+.breaking-news-section{
+  display: flex;
+  height: 50px;
+
+}
+#btext{
+width: 200px;
+font-size: 16px;
+text-transform: uppercase;
+color:var(--colorbrown);
+font-weight: 600px;
+margin: auto 0;
+}
+.breaking-news{
+  padding:0  30px;
+  color: red;
+  font-weight: 500px;
+  display: inline-block;
+}
+.breaking-news:hover{ 
+  color:var(--colorbrown);
+  cursor: pointer;
+}
+.bntime{
+  display: inline-block;
+  color: rgba(10, 232, 248, 0.671);
+  padding:0 10px;
+  font-size: 12px;
+
+}
+.navbar-nav li a:hover{
+  color: var(--colorbrown);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{ background-color: gray;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;}
+   
+  img{ width:90%;
+       padding: 10px;
+      border-radius: 10px; 
+    }     
+   h2{ padding: 10px;}  
+   p{ padding: 10px;
+  }   
+
+  #F1,
+  #F2,
+  #F3,
+  #F4,
+  #F5,
+  #F6 { border: 1px solid rgb(223, 208, 144);
+        padding: 10px;
+      margin: 25px;
+      height: auto;}
+
+  .Festival{ 
+         height: auto;
+         background-color: ivory;
+         box-shadow: 0px 4px 4px 0px rgb(141, 138, 138);
+         width: 25%;
+      }     
+
+button{ 
+  border-radius: 6px;
+  background-color: rgb(195, 23, 0);
+  color: rgb(241, 241, 241);
+  padding: 10px;
+  font-size: 20px;
+}
+button:hover{ background-color: rgb(23, 207, 198);
+cursor: pointer;
+color: black;}
+
+@media (max-width:800px) {
+.Festival, .containers{ 
+  flex-direction: column;
+margin:15px;
+width: 100%;
+}
+} 
+
+.containers{ 
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}</style>
+</head>
+<body>
+    <h1>Technology news</h1>  <br> <hr>
+    <div class="containers">
+        <div class="Festival" id="F1"> <img src="" alt=""> <h2>Softwere</h2>
+        <p>Newly invented softwere technology releted news available here.</p>
+        <a href="https://en.wikipedia.org/wiki/Diwali"> <button>Read More</button></a> 
+        </div>
+     
+        <div class="Festival" id="F2"> <img src="" alt=""> <h2>Hardwere</h2>
+        <p> Newly invented Hardwere technology releted news available here.</p>
+        <a href="https://en.wikipedia.org/wiki/Holi"> <button>Read More</button></a> 
+        </div>
+     
+        <div class="Festival" id="F3"> <img src="" alt=""> <h2>Discovery</h2>
+        <p> all technology releted discovery news available here</p>
+        <a href="https://en.wikipedia.org/wiki/Durga_Puja"> <button>Read More</button></a> 
+        </div>
+     
+        <div class="Festival" id="F4"> <img src="" alt=""> <h2>Arical</h2>
+        <p> all technology releted articals available here</p>
+        <a href="artical slide.html"> <button>Read More</button></a> 
+        </div>
+     
+        <div class="Festival" id="F6"> <img src=""alt=""> <h2>Games</h2>
+        <p>Newly invented games technology releted news available here.  </p>
+        <a href="https://en.wikipedia.org/wiki/Ganesh_Chaturthi"> <button>Read More</button></a> 
+        </div>
+     
+    </div>
+</body>
+</html>
